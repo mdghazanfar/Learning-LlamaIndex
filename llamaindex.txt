@@ -1,0 +1,42 @@
+LlamaIndex is the framework for Context-Augmented LLM Applications#
+LlamaIndex imposes no restriction on how you use LLMs. You can use LLMs as auto-complete, chatbots, agents, and more.
+It just makes using them easier and provide tools like:
+    - Data connectors ingest your existing data from their native source and format. These could be APIs, PDFs, SQL, and (much) more.
+    - Data indexes structure your data in intermediate representations that are easy and performant for LLMs to consume.
+    - Engines provide natural language access to your data. For example:
+        - Query engines are powerful interfaces for question-answering (e.g. a RAG flow).
+        - Chat engines are conversational interfaces for multi-message, "back and forth" interactions with your data.
+        - Agents are LLM-powered knowledge workers augmented by tools, from simple helper functions to API integrations and more.
+        - Observability/Evaluation integrations that enable you to rigorously experiment, evaluate, 
+          and monitor your app in a virtuous cycle.
+        - Workflows allow you to combine all of the above into an event-driven system far more flexible than other, graph-based approaches.
+Source: https://docs.llamaindex.ai/en/stable/
+
+Version during demos preparation of LlamaIndex:  0.13.1
+
+Google/Gemini API key: Google AI Studio
+https://aistudio.google.com/
+
+Install using pip:
+----------------------
+pip install llama-index
+
+
+LlamaIndex requires - Core libs
+---------------------
+LllamaIndex - llama-index - V0.3
+LlamaIndex requires - llama-index-cli, llama-index-core, llama-index-embeddings-openai, 
+llama-index-indices-managed-llama-cloud, llama-index-llms-openai, 
+llama-index-readers-file, llama-index-readers-llama-parse, nltk
+
+During installation you will have llama-index-llms-openai, but for Google the install llama-index-llms-google-genai
+
+default model for openai is GPT-3.5-turbo as global settings
+you can use the model you want, explicitly configure the LLM using Settings to change the Global configurations
+
+delta parameter - Delta received from the stream chat.
+
+Pinecone Vector store:
+https://www.pinecone.io/
+
+Signup -> Create an API Key
