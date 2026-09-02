@@ -1,0 +1,66 @@
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# ─── Virtual Environment ─────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ─── Environment Variables (NEVER commit secrets!) ───────────
+.env
+.env.*
+!.env.example
+
+# ─── Jupyter Notebooks ───────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ─── LlamaIndex / Vector Store Persistence ───────────────────
+storage/
+chroma_db/
+*.pkl
+*.faiss
+
+# ─── IDE & Editors ───────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Logs ────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Testing ─────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ─── Type Checking ───────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json

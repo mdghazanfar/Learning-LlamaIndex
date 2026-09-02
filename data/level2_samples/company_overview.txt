@@ -1,0 +1,27 @@
+# TechNova Inc. — Company Overview
+
+TechNova Inc. was founded in 2018 by Sarah Chen and Marcus Williams in San Francisco, California.
+The company specializes in enterprise AI solutions for the healthcare and finance sectors.
+
+## Mission
+TechNova's mission is to make AI accessible to every enterprise, regardless of technical expertise.
+
+## Core Products
+1. NovaSense — Real-time anomaly detection for financial transactions
+2. NovaHealth — Clinical decision support system for hospitals
+3. NovaPlatform — Low-code AI pipeline builder for enterprise teams
+
+## Revenue Milestones
+- 2020: $1.2M ARR (Annual Recurring Revenue)
+- 2021: $3.5M ARR
+- 2022: $8.1M ARR
+- 2023: $15.4M ARR
+- 2024: $28.7M ARR (86% YoY growth)
+
+## Team
+TechNova employs 187 people across three offices: San Francisco, London, and Singapore.
+The engineering team (94 people) is led by CTO Dr. Aiko Tanaka, a former Google Brain researcher.
+
+## Technology Stack
+The core platform is built on Python, Kubernetes, and PostgreSQL.
+AI models are deployed using ONNX Runtime for cross-platform inference.

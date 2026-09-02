@@ -1,0 +1,48 @@
+{
+  "company": "TechNova Inc.",
+  "report_type": "Quarterly Financial Report",
+  "quarter": "Q4",
+  "year": 2024,
+  "currency": "USD",
+  "financials": {
+    "revenue": {
+      "total": 7175000,
+      "by_product": {
+        "NovaSense": 3800000,
+        "NovaHealth": 2400000,
+        "NovaPlatform": 975000
+      },
+      "by_region": {
+        "North America": 4305000,
+        "EMEA": 2152500,
+        "APAC": 717500
+      }
+    },
+    "expenses": {
+      "total": 5230000,
+      "by_category": {
+        "R&D": 2092000,
+        "Sales_Marketing": 1569000,
+        "G&A": 940000,
+        "COGS": 629000
+      }
+    },
+    "ebitda": 1945000,
+    "net_income": 1420000,
+    "gross_margin_pct": 91.2,
+    "operating_margin_pct": 27.1
+  },
+  "key_metrics": {
+    "new_customers": 47,
+    "churn_rate_pct": 2.1,
+    "nps_score": 68,
+    "arr_growth_pct": 86.4,
+    "headcount": 187
+  },
+  "highlights": [
+    "Signed 5 Fortune 500 customers in Q4",
+    "NovaHealth received FDA clearance for cardiology module",
+    "Expanded to Singapore office with 12 new hires",
+    "Launched NovaPlatform 3.0 with 200+ connectors"
+  ]
+}
